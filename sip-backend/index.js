@@ -7,6 +7,8 @@ const cors = require("cors");
 const app = express();
 
 
+// active 
+
 app.use((req, res, next) => {
   res.setHeader(
     "Content-Security-Policy",
